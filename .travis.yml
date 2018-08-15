@@ -1,16 +1,5 @@
 language: csharp
 solution: Week2WebAppCore.sln
-<<<<<<< HEAD
-install: 
-    - sudo apt-get install -y gtk-sharp2
-    - nuget restore Week2WebAppCore.sln
-=======
-
-install: 
-    - sudo apt-get install -y gtk-sharp2
-    - nuget restore Week2WebAppCore.sln
-
->>>>>>> d6b8b7b42afedd7eaf0f14503b9f3c9c842b45bc
 deploy: 
   provider: azure_web_apps
   skip_cleanup: true 
