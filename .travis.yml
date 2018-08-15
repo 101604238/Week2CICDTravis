@@ -2,4 +2,4 @@ language: csharp
 solution: Week2WebAppCore.sln
 deploy: 
   provider: azure_web_apps
-  skip_cleanup: true
+  skip_cleanup: true 
